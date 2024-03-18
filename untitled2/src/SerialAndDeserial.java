@@ -21,7 +21,7 @@ public class SerialAndDeserial {
             oos.close();
 
 
-            //Deserialization
+            //Deserialization--
             FileInputStream fis = new FileInputStream("file");
             ObjectInputStream ois = new ObjectInputStream(fis);
             ArrayList list = (ArrayList) ois.readObject();
